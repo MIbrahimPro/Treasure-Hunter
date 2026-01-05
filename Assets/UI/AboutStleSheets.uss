@@ -1,0 +1,25 @@
+.about-scroll .unity-scroller--vertical {
+    visibility: hidden;
+    display:none;
+    height: 0;
+}
+
+
+.about-scroll .unity-scroller__tracker {
+   visibility: hidden;
+    display:none;
+    height: 0;
+}
+
+.about-scroll .unity-scroller__dragger {
+    visibility: hidden;
+    display:none;
+    height: 0;
+}
+
+.about-scroll .unity-scroller__high-button,
+.about-scroll .unity-scroller__low-button {
+    visibility: hidden;
+    display:none;
+    height: 0;
+}

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=dba71ef07d0ff4c4aafa83bd83fe8728&amp;type=3#MainMenuStyleSheet" />
+    <Style src="project://database/Assets/UI/AboutStleSheets.uss?fileID=7433441132597879392&amp;guid=4254c2c125181db4bba7fc56d069fcb4&amp;type=3#AboutStleSheets" />
+    <ui:VisualElement class="parent">
+        <ui:VisualElement>
+            <ui:Button name="mainMenu" />
+        </ui:VisualElement>
+        <ui:VisualElement class="center-center" style="flex-direction: row;">
+            <ui:VisualElement name="VisualElement" style="height: 75%; width: 350%; background-image: url(&quot;project://database/Assets/UI/pfp.jpg?fileID=2800000&amp;guid=c9d41d9ccb2ac764b80abfe1634b6a99&amp;type=3#pfp&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" touch-scroll-type="Elastic" enabled="true" class="about-scroll" style="width: 350px; height: 350px;">
+                <ui:Label text="About A-Maze...." style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/BoldPixels.ttf?fileID=12800000&amp;guid=b5e0e849a1a044543a1560ce4da06c56&amp;type=3#BoldPixels&quot;); font-size: 62px;" />
+                <ui:Label text="Hey there! I&apos;m Muhammad Ibrahim, and I made this game, A-Maze, as a semester project for Android using Unity. My main goal was to build a fun 3D puzzle game that runs smoothly on your phone. It was a great challenge to learn how to create all the game logic, keep it simple, and make sure it plays great without needing any fancy graphics.&#10;&#10;The game is all about navigating five unique, tricky maze levels—like a temple, a mineshaft, and more. To get to the next level, you have to find the key. You&apos;ll need to use levers and pressure plates, and sometimes you&apos;ll even collect TNT to blow up cracked walls. It’s a mix of figuring out puzzles, simple parkour jumps, and avoiding traps.&#10;&#10;Once you beat all five mazes, the real challenge begins! We unlock the Speedrun Mode. This is where you test your skills and speed by trying to complete all five levels as fast as you can in one continuous run. Thanks for checking out A-Maze!" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/BoldPixels.ttf?fileID=12800000&amp;guid=b5e0e849a1a044543a1560ce4da06c56&amp;type=3#BoldPixels&quot;); font-size: 38px; color: rgba(27, 27, 27, 0.8); flex-wrap: wrap;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

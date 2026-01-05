@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=dba71ef07d0ff4c4aafa83bd83fe8728&amp;type=3#MainMenuStyleSheet" />
+    <ui:VisualElement name="VisualElement" class="parent">
+        <ui:VisualElement name="VisualElement" class="center-center">
+            <ui:Label text="Main Menu" name="headline_label" style="width: 95%; max-width: 640px; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/Fonts/BoldPixels.ttf?fileID=12800000&amp;guid=b5e0e849a1a044543a1560ce4da06c56&amp;type=3#BoldPixels&quot;); font-size: 100px; color: rgb(255, 255, 255); text-shadow: 3px 3px 0 rgb(0, 0, 0);" />
+            <ui:Button text="Start Game" name="start-game_button" class="reg-btn" style="-unity-background-image-tint-color: rgb(249, 255, 0);" />
+            <ui:Button text="About Us" name="about" class="reg-btn" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/BoldPixels.ttf?fileID=12800000&amp;guid=b5e0e849a1a044543a1560ce4da06c56&amp;type=3#BoldPixels&quot;); -unity-text-align: upper-center; font-size: 93px; color: rgb(255, 255, 255); text-shadow: 3px 3px 0 rgb(0, 0, 0); margin-bottom: 30px; white-space: normal; -unity-background-image-tint-color: rgb(255, 147, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
